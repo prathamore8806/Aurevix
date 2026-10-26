@@ -1,0 +1,39 @@
+# ==============================================================================
+# Aurevix - Project Dependencies
+# Python 3.9+ compatible
+# ==============================================================================
+
+# --- Core GUI & Visualization ---
+PySide6>=6.5.0,<=6.10.2
+
+# --- Cloud Database & Authentication ---
+supabase>=2.0.0
+python-dotenv>=1.0.0
+
+# --- Computer Vision & Machine Learning ---
+opencv-python>=4.8.0
+mediapipe>=0.10.13
+ultralytics>=8.0.0
+numpy>=1.24.0,<=1.26.4
+
+# --- Desktop Automation & Input Emulation ---
+pyautogui>=0.9.54
+keyboard>=0.13.5
+pyperclip>=1.8.2
+
+# --- Audio, Speech & Voice Assistant ---
+SpeechRecognition>=3.10.0
+PyAudio>=0.2.14
+sounddevice>=0.4.6
+pyttsx3>=2.90
+pygame>=2.5.0
+
+# --- Presentation & Document Parsing ---
+PyMuPDF>=1.24.0
+python-pptx>=1.0.0
+
+# --- Windows System Integration & Diagnostics ---
+screen-brightness-control>=0.23.0
+psutil>=5.9.0
+pywin32>=306
+comtypes>=1.4.0

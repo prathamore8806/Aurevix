@@ -1,0 +1,111 @@
+# ==============================================================================
+# Aurevix - Git Ignore Configuration
+# ==============================================================================
+
+# ------------------------------------------------------------------------------
+# 🐍 Python Bytecode & Cache
+# ------------------------------------------------------------------------------
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+.pytest_cache/
+.coverage
+htmlcov/
+.mypy_cache/
+
+# ------------------------------------------------------------------------------
+# 🌐 Virtual Environments
+# ------------------------------------------------------------------------------
+.venv/
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# ------------------------------------------------------------------------------
+# 💻 Visual Studio, VS Code & IDEs
+# ------------------------------------------------------------------------------
+.vs/
+*.user
+*.userosv
+*.suo
+*.sln.docstates
+.vscode/
+.idea/
+Aurevix(2)/
+
+# ------------------------------------------------------------------------------
+# 🔒 Sensitive Data, Credentials & Databases
+# ------------------------------------------------------------------------------
+*.db
+*.db-journal
+*.db-wal
+*.db-shm
+*.sqlite
+*.sqlite3
+sgcc_users.db
+.sgcc_session
+.env
+*.pem
+*.key
+*.cert
+
+# ------------------------------------------------------------------------------
+# ⚙️ Local Runtime State & User Configuration
+# ------------------------------------------------------------------------------
+settings.json
+gestures.json
+gestures_trash.json
+calibration_history.json
+*.log
+logs/
+
+# ------------------------------------------------------------------------------
+# 📦 Large Binaries, Model Weights & Archives
+# (YOLO models download automatically via ultralytics if missing)
+# ------------------------------------------------------------------------------
+*.pt
+*.pth
+*.onnx
+*.h5
+*.zip
+*.tar.gz
+*.rar
+*.7z
+
+# ------------------------------------------------------------------------------
+# 📁 Runtime Captures, Drawings & Training Data
+# ------------------------------------------------------------------------------
+screenshots/
+drawings/
+**/ai_training_data/*
+!**/ai_training_data/.gitkeep
+
+# ------------------------------------------------------------------------------
+# 🪟 Operating System Artifacts
+# ------------------------------------------------------------------------------
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+.DS_Store
